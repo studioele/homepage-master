@@ -1,0 +1,150 @@
+html {
+  scroll-behavior: smooth;
+ }
+
+body {
+  margin-top: 8.5vh;
+  margin-left: 2.75vh;
+  margin-right: 2.75vh;
+}
+
+
+/* FONTS */
+p {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 100;
+  /* text-decoration: underline; */
+}
+
+h2 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+}
+
+h3 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+
+h4 {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 400;
+}
+/* END FONTS */
+
+
+/* NAVBAR_TOP */
+.navigation_top{
+  background-color: white;
+}
+
+.logo_top {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  font-size: 1.2rem;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+}
+/* END NAVBAR_TOP */
+
+
+/* NAVBAR_BOTTOM */
+.navigation_bottom {
+  background-color: white;
+  bottom: 25px;
+  margin-left: 2.75vh;
+  margin-right: 2.75vh;
+}
+
+/* NAVIGATION LINKS */
+.link  {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  color: black;
+  text-align: center;
+}
+
+/* LOGO */
+.logo  {
+  font-family: 'Libre Baskerville', serif;
+  font-size: 24pt;
+  padding: 0px;
+  text-align: right;
+}
+
+
+/* END NAVBAR_BOTTOM */
+
+
+/* FOOTER */
+.footer{
+  background-color: white;
+  height: 25px;
+  bottom: 0;
+  font-size: 0.75rem;
+  margin-left: 2.75vh;
+  margin-right: 2.75vh;
+}
+/* END FOOTER */
+
+
+/* ABOUT */
+.about {
+  /* margin-top: 5rem; */
+  margin-bottom: 16rem;
+  text-align: justify;
+}
+/* END ABOUT */
+
+
+/* PORTFOLIO */
+.portfolioStartItem{
+  height: 0rem;
+  /* margin-top: 4vh; */
+}
+
+.carousel-caption {
+  /* text-align: left; */
+  position: relative;
+  left: 0;
+  top: 0;
+  height: 2rem
+}
+
+.portfolioItem {
+  margin-top: 6rem;
+  margin-bottom: 10rem;
+}
+
+#caption-left {
+  text-align: left;
+}
+
+#caption-right {
+  text-align: right;
+}
+
+.portfolioItemHeader * {
+  height: auto;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+#itemDescription{
+  text-align: justify;
+}
+
+#itemSubscription{
+  text-align: left;
+}
+
+.carousel-control-next  {
+  width: 100%;
+}
+
+/* END PORTFOLIO */
