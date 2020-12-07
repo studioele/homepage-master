@@ -47,6 +47,12 @@ h4 {
   margin: 0 auto;
 }
 
+.navigation_top_index{
+  background-color: none;
+  max-width: 1980px;
+  margin: 0 auto;
+}
+
 .logo_top {
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
@@ -100,15 +106,16 @@ h4 {
 .bg {
   /* The image used */
   background-image: url("/projects/Landing/201207_Landing.gif");
-  margin-left: 1rem;
-  margin-right: 1rem;
+  margin: 0;
+  /* margin-left: 1rem; */
+  /* margin-right: 1rem; */
 
 
   /* Full height */
   height: 100%;
 
   /* Center and scale the image nicely */
-  background-position: center center;
+  background-position: bottom center;
   background-repeat: no-repeat;
   background-size: cover;
 }
