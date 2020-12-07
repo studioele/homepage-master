@@ -1,13 +1,15 @@
 html {
   scroll-behavior: smooth;
+  height: 100%;
  }
 
 body {
+  height: 100%;
   max-width: 1980px;
   margin: 0 auto;
-  margin-top: 8.5vh;
   background-color: white;
 }
+
 
 /* FONTS */
 p {
@@ -93,6 +95,24 @@ h4 {
   font-size: 0.75rem;
 }
 /* END FOOTER */
+
+/* BACKGROUND ON INDEX */
+.bg {
+  /* The image used */
+  background-image: url("/projects/Landing/201207_Landing.gif");
+  margin-left: 1rem;
+  margin-right: 1rem;
+
+
+  /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* END BACKGROUND ON INDEX */
 
 
 /* ABOUT */
