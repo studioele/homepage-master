@@ -105,8 +105,8 @@ h4 {
 /* CENTER ON STARTPAGE */
 .verticalhorizontal {
   /* background-color: #aa21ff; */
-  /* width: 300px; */
-  /* min-height: 300px; */
+  width: 100%;
+  min-height: auto;
   /* padding: 5 px; */
   display: flex;
   justify-content: center;
