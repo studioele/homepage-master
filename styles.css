@@ -336,5 +336,16 @@ h4 {
 .carousel-control-next  {
   width: 100%;
 }
+video{
+  min-width:100%
+  }
+/* video {
+  position: center;
+  min-width: 100%;
+  min-height: 100%; */
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%);        
+}*/
 
 /* END PORTFOLIO */
